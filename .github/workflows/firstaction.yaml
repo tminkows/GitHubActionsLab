@@ -11,3 +11,6 @@ jobs:
       - name: multiline
         run: |
           node -v
+  run-windows-command:
+    - name: Dir powershell
+      run: Get-Location
